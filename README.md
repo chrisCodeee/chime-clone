@@ -1,2 +1,2 @@
 # Chime Bank Clone
-Live link: chime-bank-clone.netlify.app
+Live link: https://chime-bank-clone.netlify.app/
