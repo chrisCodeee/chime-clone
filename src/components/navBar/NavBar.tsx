@@ -33,7 +33,7 @@ const NavBar = () => {
 				</li>
 				<BtnGreen btnLink="/" btnText="Sign Up" />
 
-				<div className="d-flex d-lg-none ms-4 ms-lg-5">
+				<div className="d-flex d-lg-none ms-3">
 					<CgMenu size={30} color="#1ec677" />
 				</div>
 			</ul>
