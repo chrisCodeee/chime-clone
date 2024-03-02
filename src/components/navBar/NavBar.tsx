@@ -14,7 +14,7 @@ const NavBar = () => {
 					</Link>
 				</div>
 
-				<ul className="ms-2 pt-3 d-none d-lg-flex">
+				<ul className="ms-2 pt-3 mobile-view">
 					{navLinks.map(({ name, link }) => (
 						<li className="me-4 me-lg-5" key={name}>
 							<Link to={link} className="link link-bold">
@@ -26,14 +26,14 @@ const NavBar = () => {
 			</div>
 
 			<ul className="d-flex align-items-center pt-3">
-				<li className="d-none d-lg-flex me-5">
+				<li className="mobile-view me-5">
 					<Link to="" className="link link-bold">
 						Log in
 					</Link>
 				</li>
 				<BtnGreen btnLink="/" btnText="Sign Up" />
 
-				<div className="d-flex d-lg-none ms-3">
+				<div className="menu ms-3">
 					<CgMenu size={30} color="#1ec677" />
 				</div>
 			</ul>
