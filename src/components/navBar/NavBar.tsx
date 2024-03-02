@@ -6,7 +6,7 @@ import { navLinks } from "./useNavParams";
 
 const NavBar = () => {
 	return (
-		<nav className="d-flex justify-content-between align-items-center py-1">
+		<nav className="d-flex justify-content-between align-items-center">
 			<div className="d-flex align-items-center">
 				<div style={{ width: "89.29px" }}>
 					<Link to="">

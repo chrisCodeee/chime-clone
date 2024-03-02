@@ -4,12 +4,12 @@ import { Container } from "./AppStyle";
 
 const App = () => {
 	return (
-		<Container>
+		<div>
 			<Header />
-			<div className="">
+			<Container>
 				<Outlet />
-			</div>
-		</Container>
+			</Container>
+		</div>
 	);
 };
 
