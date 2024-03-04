@@ -47,7 +47,7 @@ const ImageMobile = styled.img`
 `;
 
 const ImageContainer = styled.div`
-	height: 79vh;
+	height: 76vh;
 
 	@media screen and (min-width: 2000px) {
 		height: 50vh;
@@ -62,7 +62,7 @@ const ImageContainer = styled.div`
 	}
 
 	@media screen and (max-width: 768px) {
-		height: 40vh;
+		height: 30vh;
 	}
 
 	@media screen and (max-width: 376px) {
