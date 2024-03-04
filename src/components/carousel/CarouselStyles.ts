@@ -57,16 +57,20 @@ const ImageContainer = styled.div`
 		height: 90vh;
 	}
 
-	@media screen and (max-width: 1024px) {
+	@media screen and (max-width: 1023px) {
 		height: 30vh;
 	}
 
-	@media screen and (max-width: 768px) {
-		// height: 88vh;
+	@media screen and (max-width: 992px) {
+		height: 50vh;
+	}
+
+	@media screen and (max-width: 767px) {
+		height: 88vh;
 	}
 
 	@media screen and (max-width: 376px) {
-		height: 88vh;
+		height: 85vh;
 	}
 `;
 export { CarouselTextContainer, ImageDesktop, ImageMobile, ImageContainer };
