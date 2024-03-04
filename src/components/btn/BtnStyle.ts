@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const GreenBtn = styled.li`
+const GreenBtn = styled.div`
 	background-color: rgb(45, 227, 142);
 	padding: 1rem 6rem;
 	border-radius: 50px;
