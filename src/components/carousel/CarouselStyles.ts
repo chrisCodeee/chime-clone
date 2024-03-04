@@ -62,7 +62,7 @@ const ImageContainer = styled.div`
 	}
 
 	@media screen and (max-width: 767px) {
-		height: 65vh;
+		// height: 65vh;
 	}
 
 	@media screen and (max-width: 376px) {
