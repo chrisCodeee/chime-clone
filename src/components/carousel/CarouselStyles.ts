@@ -48,7 +48,7 @@ const ImageMobile = styled.img`
 
 const ImageContainer = styled.div`
 	// height: 76vh;
-	height: 632px;
+	height: 550px;
 
 	// @media screen and (min-width: 2000px) {
 	// 	height: 50vh;
