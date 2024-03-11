@@ -47,22 +47,22 @@ const ImageMobile = styled.img`
 `;
 
 const ImageContainer = styled.div`
-	height: 76vh;
+	// height: 76vh;
 
-	@media screen and (min-width: 2000px) {
-		height: 50vh;
-	}
+	// @media screen and (min-width: 2000px) {
+	// 	height: 50vh;
+	// }
 
-	@media screen and (max-width: 1023px) {
-		height: 30vh;
-	}
+	// @media screen and (max-width: 1024px) {
+	// 	height: 30vh;
+	// }
 
-	@media screen and (max-width: 859px) {
-		height: 50vh;
-	}
+	// @media screen and (max-width: 859px) {
+	// 	height: 50vh;
+	// }
 
-	@media screen and (max-width: 367px) {
-		height: 80vh;
-	}
+	// @media screen and (max-width: 367px) {
+	// 	height: 80vh;
+	// }
 `;
 export { CarouselTextContainer, ImageDesktop, ImageMobile, ImageContainer };
