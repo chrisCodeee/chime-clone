@@ -70,9 +70,9 @@ const CarouselTextContainer = styled.div`
 		text-align: center;
 	}
 
-	@media screen and (max-width: 500px) {
-		text-align: left;
-	}
+	// @media screen and (max-width: 500px) {
+	// 	text-align: left;
+	// }
 `;
 
 const ImageDesktop = styled.img`
