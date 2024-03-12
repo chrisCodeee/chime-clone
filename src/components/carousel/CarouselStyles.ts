@@ -67,6 +67,7 @@ const CarouselTextContainer = styled.div`
 		justify-content: space-between;
 		height: 100%;
 		text-align: center;
+		z-index: 10000;
 	}
 
 	@media screen and (max-width: 500px) {

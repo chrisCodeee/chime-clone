@@ -27,6 +27,7 @@ const carouselDetails = ({ heading, number, imageLarge, imageSmall, fontsize, tr
 							<form>
 								<input type="email" value={email} placeholder="Enter your email" className="w-100 py-3 ps-5" style={{ borderRadius: "5px" }} onChange={(e) => setEmail(e.target.value)} />
 							</form>
+
 							<div className="btn-container">
 								<BtnGreen btnLink="" btnText="Sign Up" />
 							</div>
