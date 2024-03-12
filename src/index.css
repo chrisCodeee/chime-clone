@@ -1,3 +1,7 @@
+:root {
+	--color-primary: rgb(13, 64, 41);
+}
+
 * {
 	padding: 0;
 	box-sizing: border-box;
@@ -13,7 +17,8 @@ body {
 	font-size: 1.6rem;
 	font-style: normal;
 	font-variation-settings: "wdth" 100;
-	color: rgb(74, 74, 74);
+	/* color: rgb(74, 74, 74); */
+	color: var(--color-primary);
 }
 
 h1 {
@@ -29,7 +34,7 @@ h1 {
 
 h1,
 a {
-	color: rgb(51, 51, 51);
+	color: var(--color-primary);
 	font-family: inherit;
 }
 
@@ -52,15 +57,15 @@ input {
 	border: 0;
 	outline: 0;
 	font-weight: 600;
-	color: rgb(13, 64, 41);
+	color: var(--color-primary);
 }
 
 input:focus {
-	outline: 3px solid rgb(13, 64, 41);
+	outline: 3px solidvar(--color-primary);
 }
 
 input::placeholder {
-	color: rgb(13, 64, 41);
+	color: var(--color-primary);
 }
 
 /* Nav Bar Styles */
