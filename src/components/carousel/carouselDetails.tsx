@@ -30,7 +30,7 @@ const carouselDetails = ({ heading, number, imageLarge, imageSmall, fontsize, tr
 							</div>
 						</div>
 						<div className="mt-5">
-							<p style={{ fontSize: "15px", fontWeight: "lighter" }}>
+							<p style={{ fontSize: "15px", fontWeight: "500" }}>
 								<Link to="">Already have an account?</Link>
 							</p>
 

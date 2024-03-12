@@ -90,6 +90,6 @@ const ImageMobile = styled.img`
 `;
 
 const ImageContainer = styled.div`
-	height: 550px;
+	height: 600px;
 `;
 export { CarouselTextContainer, ImageDesktop, ImageMobile, ImageContainer };

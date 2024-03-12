@@ -13,7 +13,7 @@ const GreenBtn = styled.div`
 	}
 
 	@media screen and (max-width: 500px) {
-		padding: 1rem 3rem;
+		padding: 0.6rem 2rem;
 	}
 
 	@media screen and (max-width: 300px) {
