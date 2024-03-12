@@ -11,7 +11,7 @@ const Carousels = () => {
 		{ heading: "No monthly fees.", number: "", imageLarge: imageLarge5, imageSmall: imageSmall5 },
 	];
 	return (
-		<Carousel fade>
+		<Carousel>
 			{headingText.map(({ heading, number, imageLarge, imageSmall, fontsize, transform }) => (
 				<Carousel.Item key={heading}>
 					<CarouselDetails heading={heading} number={number} imageLarge={imageLarge} imageSmall={imageSmall} fontsize={fontsize} transform={transform} />

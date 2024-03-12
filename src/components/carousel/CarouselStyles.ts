@@ -5,6 +5,7 @@ const CarouselTextContainer = styled.div`
 	top: 18%;
 	width: 50rem;
 	color: #fff;
+	z-index: 10000;
 
 	& h1 {
 		color: inherit;
@@ -67,7 +68,6 @@ const CarouselTextContainer = styled.div`
 		justify-content: space-between;
 		height: 100%;
 		text-align: center;
-		z-index: 10000;
 	}
 
 	@media screen and (max-width: 500px) {
