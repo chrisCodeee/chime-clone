@@ -2,15 +2,47 @@ import styled from "styled-components";
 
 const CarouselTextContainer = styled.div`
 	position: absolute;
-	top: 20%;
-	width: 46rem;
+	top: 18%;
+	width: 48rem;
 	color: #fff;
 
 	& h1 {
-		font-size: 5.2rem;
-		font-weight: 700;
 		color: inherit;
 		text-shadow: 0 0 40px #000, 0 0 40px rgba(0, 0, 0, 0.5);
+	}
+
+	& .form-container {
+		display: flex;
+		justify-content: space-between;
+
+		@media screen and (max-width: 859px) {
+			flex-direction: column;
+		}
+
+		& form {
+			margin-right: 2rem;
+			flex-grow: 1;
+
+			@media screen and (max-width: 859px) {
+				margin-right: 0;
+			}
+		}
+
+		& .btn-container {
+			@media screen and (max-width: 859px) {
+				margin-top: 7px;
+			}
+		}
+	}
+
+	& h1 span {
+		font-size: 2.6rem;
+		transform: translateY(-37px);
+		display: inline-block;
+
+		@media screen and (max-width: 859px) {
+			transform: translateY(-10px);
+		}
 	}
 
 	& p {
@@ -28,6 +60,17 @@ const CarouselTextContainer = styled.div`
 
 	@media screen and (max-width: 859px) {
 		width: 100%;
+		padding: 0 2rem 3rem 2rem;
+		top: 5% !important;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+		text-align: center;
+	}
+
+	@media screen and (max-width: 500px) {
+		text-align: left;
 	}
 `;
 
@@ -47,23 +90,6 @@ const ImageMobile = styled.img`
 `;
 
 const ImageContainer = styled.div`
-	// height: 76vh;
 	height: 550px;
-
-	// @media screen and (min-width: 2000px) {
-	// 	height: 50vh;
-	// }
-
-	// @media screen and (max-width: 1024px) {
-	// 	height: 30vh;
-	// }
-
-	// @media screen and (max-width: 859px) {
-	// 	height: 50vh;
-	// }
-
-	// @media screen and (max-width: 367px) {
-	// 	height: 80vh;
-	// }
 `;
 export { CarouselTextContainer, ImageDesktop, ImageMobile, ImageContainer };
