@@ -11,7 +11,7 @@ const NavMenu = () => {
 	};
 
 	return (
-		<div style={style}>
+		<div style={style} className="animate__animated animate__fadeInRight">
 			<div className="d-flex justify-content-between align-items-center">
 				<Logo />
 				<IoCloseOutline onClick={closeMenu} size={30} className="mt-2" />
