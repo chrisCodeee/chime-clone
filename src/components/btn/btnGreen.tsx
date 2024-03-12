@@ -4,10 +4,11 @@ import { GreenBtn } from "./BtnStyle";
 interface Props {
 	btnText: string;
 	btnLink: string;
+	padding?: string;
 }
-const BtnGreen = ({ btnText, btnLink }: Props) => {
+const BtnGreen = ({ btnText, btnLink, padding }: Props) => {
 	return (
-		<GreenBtn>
+		<GreenBtn style={{ padding: padding }}>
 			<Link className="link-bold" to={btnLink}>
 				{btnText}
 			</Link>

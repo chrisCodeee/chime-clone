@@ -18,18 +18,18 @@ const carouselDetails = ({ heading, number, imageLarge, imageSmall, fontsize, tr
 		<>
 			<Container>
 				<CarouselTextContainer>
-					<h1 className="pb-4">
+					<h1>
 						{heading}
 						<span style={{ fontSize: fontsize, transform: `translateY(${transform})` }}>{number}</span>
 					</h1>
 					<div>
-						<div className="mt-5 form-container">
+						<div className="mt-4 form-container">
 							<form>
 								<input type="email" value={email} placeholder="Enter your email" className="w-100 py-3 ps-5" style={{ borderRadius: "5px" }} onChange={(e) => setEmail(e.target.value)} />
 							</form>
 
 							<div className="btn-container">
-								<BtnGreen btnLink="" btnText="Sign Up" />
+								<BtnGreen btnLink="" btnText="Sign Up" padding="1.1rem 4rem" />
 							</div>
 						</div>
 						<div className="mt-5">

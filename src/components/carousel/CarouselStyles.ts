@@ -3,7 +3,7 @@ import styled from "styled-components";
 const CarouselTextContainer = styled.div`
 	position: absolute;
 	top: 18%;
-	width: 48rem;
+	width: 50rem;
 	color: #fff;
 
 	& h1 {
@@ -91,6 +91,10 @@ const ImageMobile = styled.img`
 `;
 
 const ImageContainer = styled.div`
-	height: 632px;
+	height: 550px;
+
+	@media screen and (max-width: 859px) {
+		height: 632px;
+	}
 `;
 export { CarouselTextContainer, ImageDesktop, ImageMobile, ImageContainer };
