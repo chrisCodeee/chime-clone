@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { BtnGreen } from "../btn";
 import { CarouselTextContainer, ImageContainer, ImageDesktop, ImageMobile } from "./CarouselStyles";
 import { Container } from "../../App/AppStyle";
+import { useState } from "react";
 
 interface Props {
 	heading: string;
@@ -12,6 +13,7 @@ interface Props {
 	transform?: string;
 }
 const carouselDetails = ({ heading, number, imageLarge, imageSmall, fontsize, transform }: Props) => {
+	const [email, setEmail] = useState("");
 	return (
 		<>
 			<Container>
@@ -22,8 +24,8 @@ const carouselDetails = ({ heading, number, imageLarge, imageSmall, fontsize, tr
 					</h1>
 					<div>
 						<div className="mt-5 form-container">
-							<form action="#">
-								<input type="email" placeholder="Enter your email" className="w-100 py-3 ps-5" style={{ borderRadius: "5px" }} />
+							<form>
+								<input type="email" value={email} placeholder="Enter your email" className="w-100 py-3 ps-5" style={{ borderRadius: "5px" }} onChange={(e) => setEmail(e.target.value)} />
 							</form>
 							<div className="btn-container">
 								<BtnGreen btnLink="" btnText="Sign Up" />
