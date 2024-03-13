@@ -19,6 +19,7 @@ body {
 	font-variation-settings: "wdth" 100;
 	/* color: rgb(74, 74, 74); */
 	color: var(--color-primary);
+	padding-bottom: 30px;
 }
 
 h1 {

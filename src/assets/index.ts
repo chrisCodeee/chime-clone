@@ -9,3 +9,9 @@ export { default as imageSmall2 } from "./CB-Mobile.jpeg";
 export { default as imageSmall3 } from "./SpotMe-Mobile.webp";
 export { default as imageSmall4 } from "./GPE-Mobile.webp";
 export { default as imageSmall5 } from "./NoFees-Mobile.webp";
+
+export { default as forbes } from "./Forbes.svg";
+export { default as WSJ } from "./WSJ.svg";
+export { default as NTY } from "./NYT.svg";
+export { default as USAToday } from "./USAToday.svg";
+export { default as TC } from "./TC.svg";
