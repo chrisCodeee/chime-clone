@@ -15,3 +15,6 @@ export { default as WSJ } from "./WSJ.svg";
 export { default as NTY } from "./NYT.svg";
 export { default as USAToday } from "./USAToday.svg";
 export { default as TC } from "./TC.svg";
+
+export { default as NotificationSpotMe } from "./Notification-SpotMe.svg";
+export { default as SpotMe } from "./SpotMe.webp";
