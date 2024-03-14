@@ -6,7 +6,7 @@ const TextContainer = () => {
 	return (
 		<div className="row mx-0 mt-big px-3 px-md-0">
 			<div className="col-12 col-md d-flex flex-column justify-content-center" style={{ order: "-1" }}>
-				<h2 className="link-bold">Overdraft fee-free with SpotMe.</h2>
+				<h1 className="link-bold">Overdraft fee-free with SpotMe.</h1>
 				<p className="mb-4 col-md-9" style={{ fontSize: "1.7rem" }}>
 					We'll spot you up to $200 on debit card purchases with no overdraft fees. Eligibility requirements apply.
 					<sup>2</sup>
