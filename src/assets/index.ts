@@ -18,3 +18,4 @@ export { default as TC } from "./TC.svg";
 
 export { default as NotificationSpotMe } from "./Notification-SpotMe.svg";
 export { default as SpotMe } from "./SpotMe.webp";
+export { default as HpSpotMe } from "./HP-SpotMe.webp";

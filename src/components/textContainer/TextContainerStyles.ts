@@ -7,11 +7,12 @@ const SpotMeContainer = styled.div`
 	top: 11%;
 	left: -7%;
 
-	@media screen and (max-width: 992px) {
+	@media screen and (max-width: 767px) {
 		top: -12%;
 		left: 0%;
 		position: relative;
 		transform: scale(0.8);
 	}
 `;
+
 export { SpotMeContainer };
