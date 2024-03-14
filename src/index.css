@@ -80,7 +80,7 @@ input::placeholder {
 
 @media screen and (max-width: 767px) {
 	.mt-big {
-		margin-top: 6rem;
+		margin-top: 4rem;
 	}
 }
 
