@@ -1,26 +1,31 @@
-import { HpSpotMe, NotificationSpotMe, SpotMe } from "../../assets";
 import { BtnMore } from "../btn";
-import { SpotMeContainer } from "./TextContainerStyles";
 
-const TextContainer = () => {
+interface Props {
+	heading: string;
+	text: string;
+	image: string;
+	number?: string;
+}
+
+const TextContainer = ({ heading, text, image, number }: Props) => {
 	return (
 		<div className="row mx-0 mt-big px-3 px-md-0">
-			<div className="col-12 col-md d-flex flex-column justify-content-center" style={{ order: "-1" }}>
-				<h1 className="link-bold">Overdraft fee-free with SpotMe.</h1>
-				<p className="mb-4 col-md-9" style={{ fontSize: "1.7rem" }}>
-					We'll spot you up to $200 on debit card purchases with no overdraft fees. Eligibility requirements apply.
-					<sup>2</sup>
+			<div className="col-12 col-md d-flex flex-column justify-content-center">
+				<h2 className="link-bold col-md-9">{heading}</h2>
+				<p className="mb-5 mt-3 col-md-9" style={{ fontSize: "1.5rem" }}>
+					{text}
+					<sup>{number}</sup>
 				</p>
-				<BtnMore />
+				<BtnMore link="" />
 			</div>
 
-			<div className="col-12 col-md mt-5 mt-md-0" style={{ position: "relative", order: "1" }}>
-				<img src={SpotMe} alt="Notification Spot Me" className="d-none d-md-block" style={{ height: "auto" }} />
+			<div className="col-12 col-md mt-5 mt-md-0">
+				<img src={image} alt="Notification Spot Me" className="" style={{ height: "auto" }} />
 
-				<img src={HpSpotMe} alt="Notification Spot Me" className="d-block d-md-none" style={{ borderRadius: "8px", height: "auto" }} />
-				<SpotMeContainer>
+				{/* <img src={HpSpotMe} alt="Notification Spot Me" className="d-block d-md-none" style={{ borderRadius: "8px", height: "auto" }} /> */}
+				{/* <SpotMeContainer>
 					<img src={NotificationSpotMe} alt="Notification Spot Me" />
-				</SpotMeContainer>
+				</SpotMeContainer> */}
 			</div>
 		</div>
 	);

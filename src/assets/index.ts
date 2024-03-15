@@ -10,12 +10,13 @@ export { default as imageSmall3 } from "./SpotMe-Mobile.webp";
 export { default as imageSmall4 } from "./GPE-Mobile.webp";
 export { default as imageSmall5 } from "./NoFees-Mobile.webp";
 
-export { default as forbes } from "./Forbes.svg";
-export { default as WSJ } from "./WSJ.svg";
-export { default as NTY } from "./NYT.svg";
-export { default as USAToday } from "./USAToday.svg";
-export { default as TC } from "./TC.svg";
+export { default as forbes } from "./Forbes.webp";
+export { default as WSJ } from "./WSJ.webp";
+export { default as NTY } from "./NYT.webp";
+export { default as USAToday } from "./usatoday.webp";
+export { default as TC } from "./TC.webp";
 
 export { default as NotificationSpotMe } from "./Notification-SpotMe.svg";
-export { default as SpotMe } from "./SpotMe.webp";
+// export { default as SpotMe } from "./SpotMe.webp";
+export { default as SpotMe } from "./spot-me-1.png";
 export { default as HpSpotMe } from "./HP-SpotMe.webp";
