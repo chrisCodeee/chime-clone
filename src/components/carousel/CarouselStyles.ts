@@ -5,7 +5,7 @@ const CarouselTextContainer = styled.div`
 	top: 18%;
 	width: 50rem;
 	color: #fff;
-	z-index: 10000;
+	z-index: 1000;
 
 	& h1 {
 		color: inherit;
