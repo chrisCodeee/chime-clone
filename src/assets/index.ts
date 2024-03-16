@@ -20,3 +20,11 @@ export { default as NotificationSpotMe } from "./Notification-SpotMe.svg";
 // export { default as SpotMe } from "./SpotMe.webp";
 export { default as SpotMe } from "./spot-me-1.png";
 export { default as HpSpotMe } from "./HP-SpotMe.webp";
+
+export { default as PaidEarly } from "./paid-early.webp";
+export { default as NoFees } from "./no-fees.webp";
+export { default as PayAnyoneDesktop } from "./pay-anyone-desktop.webp";
+export { default as PayAnyoneMobile } from "./pay-anyone-mobile.webp";
+export { default as APY_200 } from "./2.00-APY.webp";
+export { default as CreditBuilder } from "./CreditBuilder.webp";
+export { default as Alert } from "./alerts.webp";

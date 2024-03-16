@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { BtnMoreContainer } from "./BtnStyle";
 
 interface Props {
 	link: string;
@@ -7,11 +8,11 @@ interface Props {
 const btnMore = ({ link }: Props) => {
 	return (
 		<div>
-			<button style={{ border: "2px solid rgb(30, 198, 119)", borderRadius: "8px", padding: "1rem 2.4rem", backgroundColor: "#fff" }}>
+			<BtnMoreContainer>
 				<Link to={link} className="link-bold">
 					Learn more
 				</Link>
-			</button>
+			</BtnMoreContainer>
 		</div>
 	);
 };

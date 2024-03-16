@@ -20,8 +20,8 @@ html {
 body {
 	font-family: "Open Sans", sans-serif;
 	font-optical-sizing: auto;
-	font-size: 1.58rem;
-	line-height: 1.6;
+	font-size: 1.6rem;
+	line-height: 1.8;
 	font-style: normal;
 	font-variation-settings: "wdth" 100;
 	/* color: rgb(74, 74, 74); */
@@ -82,12 +82,19 @@ input::placeholder {
 }
 
 .mt-big {
-	margin-top: 8rem;
+	margin: 10rem 0 6rem 0;
+}
+
+.textWrapperRight {
+	margin-left: 12rem;
 }
 
 @media screen and (max-width: 767px) {
 	.mt-big {
 		margin-top: 4rem;
+	}
+	.textWrapperRight {
+		margin-left: 0;
 	}
 }
 

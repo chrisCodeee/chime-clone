@@ -20,4 +20,22 @@ const GreenBtn = styled.div`
 		padding: 1rem;
 	}
 `;
-export { GreenBtn };
+
+const BtnMoreContainer = styled.button`
+	border: 2px solid rgb(30, 198, 119);
+	border-radius: 8px;
+	padding: 1rem 2.4rem;
+	background-color: #fff;
+	transition: all 0.3s;
+
+	&:hover {
+		background-color: #000;
+		border: 2px solid transparent;
+	}
+
+	&:hover a {
+		color: #fff;
+	}
+`;
+
+export { GreenBtn, BtnMoreContainer };
