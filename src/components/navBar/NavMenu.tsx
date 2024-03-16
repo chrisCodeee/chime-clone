@@ -68,7 +68,7 @@ const NavMenu = () => {
 			<div className="pt-5 pb-1">
 				{navMenuLinks.map(({ heading, links }) => (
 					<ul className="mb-5 pb-2">
-						<h2 className="mb-5 link-bold">{heading}</h2>
+						<h3 className="mb-5 fs-1 link-bold">{heading}</h3>
 						{links.map(({ name, link }) => (
 							<li className="mt-4">
 								<Link className="link" to={link}>
