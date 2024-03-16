@@ -11,7 +11,7 @@ const Home = () => {
 			</div>
 			<Container className="px-0 px-md-5 py-4 py-md-5 d-flex flex-wrap justify-content-center justify-content-md-between">
 				{images.map((image) => (
-					<div key={image} className="mt-4 me-5 image-container">
+					<div key={image} className="mt-4 me-4 me-md-5 image-container">
 						<img src={image} alt="Forbes" />
 					</div>
 				))}

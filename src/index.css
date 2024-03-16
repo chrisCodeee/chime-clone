@@ -3,6 +3,11 @@
 	--color-primary: rgb(74, 74, 74);
 }
 
+::selection {
+	background-color: rgb(30, 198, 119);
+	color: #fff;
+}
+
 * {
 	padding: 0;
 	box-sizing: border-box;
@@ -93,6 +98,12 @@ input::placeholder {
 @media screen and (max-width: 767px) {
 	.image-container {
 		height: 24.9875px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.image-container {
+		height: 19.9875px;
 	}
 }
 
