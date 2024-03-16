@@ -77,7 +77,7 @@ const Home = () => {
 				<Container>
 					<TextContainer>
 						<TextWrapperLeft heading="Stay in control with alerts" text="You’re always in-the-know with daily balance notifications and transaction alerts" />
-						<ImageWrapper image={Alert} scale="0.9" />
+						<ImageWrapper image={Alert} scale="1" />
 					</TextContainer>
 				</Container>
 			</div>
