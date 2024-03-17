@@ -113,7 +113,7 @@ const Home = () => {
 								<Form />
 							</div>
 							<div className="d-md-flex mt-3">
-								<BtnGreen btnLink="" btnText="Sign up" padding=".5rem 2.5rem" />
+								<BtnGreen btnLink="" btnText="Sign up" padding=".7rem 2.5rem" />
 							</div>
 							<p className="mt-1 col-12 col-md-10" style={{ fontSize: "1.15rem" }}>
 								Learn how we collect and use your information by visiting our
