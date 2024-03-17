@@ -34,6 +34,12 @@ h1 {
 	font-size: 4.5rem;
 }
 
+h2,
+h3 {
+	color: rgb(51, 51, 51);
+	font-weight: 700;
+}
+
 h2 {
 	font-size: 3.2rem;
 	color: rgb(51, 51, 51);
@@ -82,7 +88,7 @@ input::placeholder {
 }
 
 .mt-big {
-	margin: 10rem 0 6rem 0;
+	padding: 10rem 0 6rem 0;
 }
 
 .textWrapperRight {
@@ -91,7 +97,7 @@ input::placeholder {
 
 @media screen and (max-width: 767px) {
 	.mt-big {
-		margin-top: 4rem;
+		padding-top: 4rem;
 	}
 	.textWrapperRight {
 		margin-left: 0;

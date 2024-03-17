@@ -1,6 +1,7 @@
 import { Container } from "../../App/AppStyle";
-import { APY_200, Alert, CreditBuilder, NTY, NoFees, PaidEarly, PayAnyoneDesktop, SpotMe, TC, USAToday, WSJ, forbes } from "../../assets";
+import { APY_200, Alert, CreditBuilder, Lock, NTY, NoFees, PaidEarly, PayAnyoneDesktop, SpotMe, TC, USAToday, WSJ, forbes } from "../../assets";
 import { Carousels, ImageWrapper, TextContainer, TextWrapperLeft, TextWrapperRight } from "../../components";
+import { Security } from "../../containers";
 
 const Home = () => {
 	const images = [WSJ, forbes, NTY, USAToday, TC];
@@ -79,6 +80,21 @@ const Home = () => {
 						<TextWrapperLeft heading="Stay in control with alerts" text="You’re always in-the-know with daily balance notifications and transaction alerts" />
 						<ImageWrapper image={Alert} scale="1" />
 					</TextContainer>
+				</Container>
+			</div>
+
+			<div style={{ backgroundColor: "rgba(74, 74, 74, 0.03)" }} className="">
+				<Container className="mt-big ">
+					<h2 className="text-center">Security & support you can trust</h2>
+					<div className="row px-3 px-md-0 mx-0">
+						<div className="col-12 my-5 my-md-0 col-md align-self-center text-center">
+							<div className="mx-auto" style={{ maxWidth: "40%" }}>
+								<img src={Lock} alt="" />
+							</div>
+						</div>
+
+						<Security />
+					</div>
 				</Container>
 			</div>
 		</>
