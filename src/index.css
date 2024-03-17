@@ -27,6 +27,7 @@ body {
 	/* color: rgb(74, 74, 74); */
 	color: var(--color-primary);
 	padding-bottom: 30px;
+	-webkit-text-size-adjust: 100% !important;
 }
 
 h1 {
