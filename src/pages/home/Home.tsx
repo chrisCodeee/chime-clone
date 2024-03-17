@@ -88,8 +88,8 @@ const Home = () => {
 					<h2 className="text-center">Security & support you can trust</h2>
 					<div className="row px-3 px-md-0 mx-0">
 						<div className="col-12 my-5 my-md-0 col-md align-self-center text-center">
-							<div className="mx-auto" style={{ maxWidth: "40%" }}>
-								<img src={Lock} alt="" />
+							<div className="mx-auto securityImageContainer">
+								<img src={Lock} alt="Lock Image" />
 							</div>
 						</div>
 

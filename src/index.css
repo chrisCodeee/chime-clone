@@ -95,12 +95,20 @@ input::placeholder {
 	margin-left: 12rem;
 }
 
+.securityImageContainer {
+	width: 40%;
+}
+
 @media screen and (max-width: 767px) {
 	.mt-big {
 		padding-top: 4rem;
 	}
 	.textWrapperRight {
 		margin-left: 0;
+	}
+
+	.securityImageContainer {
+		width: 65%;
 	}
 }
 
