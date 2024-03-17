@@ -6,3 +6,4 @@ export { default as TextWrapperLeft } from "./textContainer/textWrapper";
 export { default as TextWrapperRight } from "./textContainer/textWrapperRight";
 export { default as ImageWrapper } from "./textContainer/ImageWrapper";
 export { default as Text } from "./text/Text";
+export { default as Form } from "./form/Form";

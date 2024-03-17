@@ -29,3 +29,4 @@ export { default as APY_200 } from "./2.00-APY.webp";
 export { default as CreditBuilder } from "./CreditBuilder.webp";
 export { default as Alert } from "./alerts.webp";
 export { default as Lock } from "./lock.webp";
+export { default as ChimeReview } from "./Chime-Reviews-1mil.webp";

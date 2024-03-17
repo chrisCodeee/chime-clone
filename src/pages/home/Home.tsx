@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import { Container } from "../../App/AppStyle";
-import { APY_200, Alert, CreditBuilder, Lock, NTY, NoFees, PaidEarly, PayAnyoneDesktop, SpotMe, TC, USAToday, WSJ, forbes } from "../../assets";
-import { Carousels, ImageWrapper, TextContainer, TextWrapperLeft, TextWrapperRight } from "../../components";
+import { APY_200, Alert, ChimeReview, CreditBuilder, Lock, NTY, NoFees, PaidEarly, PayAnyoneDesktop, SpotMe, TC, USAToday, WSJ, forbes } from "../../assets";
+import { Carousels, Form, ImageWrapper, TextContainer, TextWrapperLeft, TextWrapperRight } from "../../components";
+import { BtnGreen } from "../../components/btn";
 import { Security } from "../../containers";
 
 const Home = () => {
@@ -10,6 +12,7 @@ const Home = () => {
 			<div style={{ maxWidth: "2000px", margin: "auto" }}>
 				<Carousels />
 			</div>
+
 			<div style={{ backgroundColor: "rgba(74, 74, 74, 0.03)" }} className="py-4 py-md-5">
 				<Container className="px-0 px-md-5 d-flex flex-wrap justify-content-center justify-content-md-between">
 					{images.map((image) => (
@@ -95,6 +98,32 @@ const Home = () => {
 
 						<Security />
 					</div>
+				</Container>
+			</div>
+
+			<div style={{ backgroundColor: "rgba(166, 245, 219, 0.2)" }}>
+				<Container>
+					<TextContainer>
+						<div className="col-12 col-md d-flex flex-column justify-content-center">
+							<h2 className="link-bold col-md-9">Get started</h2>
+							<p className="mb-4 mt-3 col-md-10" style={{ fontSize: "1.5rem", fontWeight: "600" }}>
+								Applying for an account is free and takes less than 2 minutes. It won’t affect your credit score!
+							</p>
+							<div className="col-md-10">
+								<Form />
+							</div>
+							<div className="d-md-flex mt-3">
+								<BtnGreen btnLink="" btnText="Sign up" padding=".5rem 2.5rem" />
+							</div>
+							<p className="mt-1 col-12 col-md-10" style={{ fontSize: "1.15rem" }}>
+								Learn how we collect and use your information by visiting our
+								<Link to="">
+									<strong> Privacy Notice</strong>
+								</Link>
+							</p>
+						</div>
+						<ImageWrapper image={ChimeReview} scale="1" />
+					</TextContainer>
 				</Container>
 			</div>
 		</>
