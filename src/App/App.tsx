@@ -1,7 +1,8 @@
 import { Outlet } from "react-router-dom";
-import { Header } from "../containers";
+import { Footer, Header } from "../containers";
 import NavMenu from "../components/navBar/NavMenu";
 import { useNavBar } from "../state-mangement";
+import { Container } from "./AppStyle";
 
 const App = () => {
 	const { state } = useNavBar();
@@ -12,6 +13,10 @@ const App = () => {
 				<>
 					<Header />
 					<Outlet />
+
+					<Container className="mt-big">
+						<Footer />
+					</Container>
 				</>
 			)}
 		</>

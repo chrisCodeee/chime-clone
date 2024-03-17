@@ -3,59 +3,10 @@ import { IoCloseOutline } from "react-icons/io5";
 import { useNavBar } from "../../state-mangement";
 import { Link } from "react-router-dom";
 import { BtnGreen } from "../btn";
+import { navMenuLinks } from "./useNavParams";
 
 const NavMenu = () => {
 	const { closeMenu } = useNavBar();
-
-	const navMenuLinks = [
-		{
-			heading: "Benefits",
-			links: [
-				{ name: "No Monthly Fees", link: "" },
-				{ name: "Free Debit Card", link: "" },
-				{ name: "Fee-Free Overdraft", link: "" },
-				{ name: "Build Credit", link: "" },
-				{ name: "Get Paid Early", link: "" },
-				{ name: "60,000+ Fee-Free ATMs", link: "" },
-				{ name: "High Yield Savings Account", link: "" },
-				{ name: "Send and Receive Money", link: "" },
-				{ name: "Security and Control", link: "" },
-			],
-		},
-
-		{
-			heading: "Accounts",
-			links: [
-				{ name: "Checking Account", link: "" },
-				{ name: "Credit Builder", link: "" },
-				{ name: "Savings Account", link: "" },
-			],
-		},
-
-		{
-			heading: "Who We are",
-			links: [
-				{ name: "About Us", link: "" },
-				{ name: "In the News", link: "" },
-				{ name: "Chime Financial, Inc.", link: "" },
-				{ name: "In the Community", link: "" },
-				{ name: "Careers", link: "" },
-			],
-		},
-
-		{
-			heading: "Learn",
-			links: [
-				{ name: "Blog", link: "" },
-				{ name: "Help Center", link: "" },
-				{ name: "FAQs", link: "" },
-				{ name: "Online Banking", link: "" },
-				{ name: "Second Chance Banking", link: "" },
-				{ name: "Tax Refund", link: "" },
-				{ name: "Mobile Banking", link: "" },
-			],
-		},
-	];
 
 	return (
 		<div style={{ backgroundColor: "rgba(255, 255, 255, 0.98)", height: "100vh" }} className="animate__animated animate__fadeInRight">
