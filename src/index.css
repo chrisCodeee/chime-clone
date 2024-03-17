@@ -100,12 +100,12 @@ input::placeholder {
 }
 
 .iconContainer {
-	height: 35px;
+	height: 3.5rem;
 }
 
 .appContainer {
 	/* transform: scale(0.9); */
-	height: 40px;
+	height: 4rem;
 	margin: auto;
 }
 
@@ -134,18 +134,18 @@ input::placeholder {
 }
 
 .image-container {
-	height: 35px;
+	height: 3.5rem;
 }
 
 @media screen and (max-width: 767px) {
 	.image-container {
-		height: 24.9875px;
+		height: 2.49875rem;
 	}
 }
 
 @media screen and (max-width: 500px) {
 	.image-container {
-		height: 19.9875px;
+		height: 1.99875rem;
 	}
 }
 

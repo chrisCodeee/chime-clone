@@ -21,7 +21,6 @@ const Footer = () => {
 			))}
 
 			<div className=" col-12 col-xl py-5 py-xl-0 px-0 d-flex flex-column flex-lg-row flex-xl-column appWrapper">
-				{/* <div className="d-flex flex-column flex-lg-row flex-xl-column bg-secondary justify-content-between"> */}
 				<div className="d-flex flex-column flex-lg-row flex-xl-column align-items-start me-lg-5 me-xl-0">
 					<div className="appContainer me-lg-4 mx-xl-auto">
 						<Link to="https://apps.apple.com/us/app/chime-mobile-banking/id836215269" target="_blank">
@@ -52,8 +51,9 @@ const Footer = () => {
 						</Link>
 					</div>
 				</div>
-				{/* </div> */}
 			</div>
+
+			<p></p>
 		</div>
 	);
 };
