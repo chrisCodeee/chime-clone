@@ -24,10 +24,9 @@ body {
 	line-height: 1.8;
 	font-style: normal;
 	font-variation-settings: "wdth" 100;
-	/* color: rgb(74, 74, 74); */
 	color: var(--color-primary);
 	padding-bottom: 30px;
-	-webkit-text-size-adjust: 100% !important;
+	-webkit-text-size-adjust: 100% !important; /*To resolve issues in iphones*/
 }
 
 h1 {
@@ -69,13 +68,9 @@ ul {
 
 img {
 	width: 100%;
-	min-height: auto;
+	min-height: auto; /*To resolve height issues in iphones*/
 	object-fit: cover;
 }
-
-/* img {
-	min-height: auto !important;
-} */
 
 input {
 	border: 0;
@@ -174,6 +169,10 @@ input::placeholder {
 @media screen and (max-width: 587px) {
 	.image-container {
 		transform: scale(0.6);
+	}
+
+	.securityImageContainer {
+		width: 35%;
 	}
 }
 

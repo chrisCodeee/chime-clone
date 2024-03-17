@@ -85,7 +85,7 @@ const Home = () => {
 			</div>
 
 			<div style={{ backgroundColor: "rgba(74, 74, 74, 0.03)" }} className="">
-				<Container className="mt-big ">
+				<Container className="mt-big">
 					<h2 className="text-center">Security & support you can trust</h2>
 					<div className="row px-3 px-md-0 mx-0">
 						<div className="col-12 my-5 my-md-0 col-md align-self-center text-center">
