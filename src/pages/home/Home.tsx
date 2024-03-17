@@ -118,7 +118,7 @@ const Home = () => {
 							<p className="mt-1 col-12 col-md-10" style={{ fontSize: "1.15rem" }}>
 								Learn how we collect and use your information by visiting our
 								<Link to="">
-									<strong> Privacy Notice</strong>
+									<strong> Privacy Notice </strong>
 								</Link>
 							</p>
 						</div>
