@@ -4,7 +4,7 @@ import { Carousels, ImageWrapper, TextContainer, TextWrapperLeft, TextWrapperRig
 import { GetStarted, Security } from "../../containers";
 
 const Home = () => {
-	const images = [WSJ, forbes, NTY, USAToday, TC];
+	const images = [WSJ, forbes, TC, NTY, USAToday];
 	return (
 		<>
 			<div style={{ maxWidth: "2000px", margin: "auto" }}>
@@ -12,9 +12,9 @@ const Home = () => {
 			</div>
 
 			<div style={{ backgroundColor: "rgba(74, 74, 74, 0.03)" }} className="py-4 py-md-5">
-				<Container className="px-0 px-md-5 d-flex flex-wrap justify-content-center justify-content-md-between">
+				<Container className="px-0 px-md-5 d-flex justify-content-center flex-wrap flex-xl-nowrap">
 					{images.map((image) => (
-						<div key={image} className="mt-4 me-4 me-md-5 image-container">
+						<div key={image} className="mt-md-5 me-md-5 image-container">
 							<img src={image} alt="Forbes" />
 						</div>
 					))}

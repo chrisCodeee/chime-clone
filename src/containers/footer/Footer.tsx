@@ -12,7 +12,7 @@ const Footer = () => {
 					</h3>
 					{links.map(({ name, link }) => (
 						<li className="mt-3" style={{ fontSize: "1.3rem" }}>
-							<Link className="link" to={link}>
+							<Link className="link" to={link} style={{ color: "rgb(116, 117, 140)", fontWeight: "500" }}>
 								{name}
 							</Link>
 						</li>
@@ -20,27 +20,27 @@ const Footer = () => {
 				</ul>
 			))}
 
-			<div className=" col-12 col-xl py-5 py-xl-0 px-0 d-flex flex-column flex-lg-row flex-xl-column appWrapper">
-				<div className="d-flex flex-column flex-lg-row flex-xl-column align-items-start me-lg-5 me-xl-0">
-					<div className="appContainer me-lg-4 mx-xl-auto">
+			<div className=" col-12 col-xl py-lg-4 py-xl-0 px-0 d-flex flex-column align-items-start align-items-lg-center flex-lg-row flex-xl-column appWrapper">
+				<div className="appContainer d-flex flex-column flex-lg-row flex-xl-column align-items-start me-lg-0 me-xl-0">
+					<div className="me-lg-4 mx-xl-auto">
 						<Link to="https://apps.apple.com/us/app/chime-mobile-banking/id836215269" target="_blank">
 							<img src={AppStore} alt="AppStore" />
 						</Link>
 					</div>
-					<div className="mt-4 mt-lg-0 mt-xl-3 appContainer">
+					<div className="mt-5 mt-lg-0 mt-xl-3">
 						<Link to="https://play.google.com/store/apps/details?id=com.onedebit.chime&hl=en&pli=1" target="_blank">
 							<img src={GooglePlay} alt="GooglePlay" />
 						</Link>
 					</div>
 				</div>
 
-				<div className="d-flex justify-content-xl-between align-items-center mt-5 mt-lg-0 mt-xl-3 pt-xl-5 px-xl-3 pb-4 pb-lg-0">
-					<div className="iconContainer me-5 me-xl-0">
+				<div className="socialMediaWrapper d-flex justify-content-xl-between align-items-center mt-xl-5">
+					<div className="iconContainer me-md-1 me-xl-0">
 						<Link to="https://www.facebook.com/chime" target="_blank">
 							<img src={FaceBook} alt="FaceBook" />
 						</Link>
 					</div>
-					<div className="iconContainer me-5 me-xl-0">
+					<div className="iconContainer me-md-1 me-xl-0">
 						<Link to="https://twitter.com/chime" target="_blank">
 							<img src={Twitter} alt="Twitter" />
 						</Link>

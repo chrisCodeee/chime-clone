@@ -43,8 +43,8 @@ const carouselDetails = ({ heading, number, imageLarge, imageSmall, fontsize, tr
 				</CarouselTextContainer>
 			</Container>
 			<ImageContainer>
-				<ImageDesktop src={imageLarge} alt="image" />
-				<ImageMobile src={imageSmall} alt="image" />
+				<ImageDesktop src={imageLarge} alt="image" style={{ height: "100%" }} />
+				<ImageMobile src={imageSmall} alt="image" style={{ height: "100%" }} />
 			</ImageContainer>
 		</>
 	);
