@@ -99,6 +99,27 @@ input::placeholder {
 	width: 40%;
 }
 
+.iconContainer {
+	height: 35px;
+}
+
+.appContainer {
+	/* transform: scale(0.9); */
+	height: 40px;
+	margin: auto;
+}
+
+@media screen and (max-width: 1199px) {
+	.appContainer {
+		margin: 0;
+	}
+
+	.appWrapper {
+		border-top: 1px solid rgba(74, 74, 74, 0.3);
+		border-bottom: 1px solid rgba(74, 74, 74, 0.3);
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.mt-big {
 		padding-top: 4rem;

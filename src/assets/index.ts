@@ -30,3 +30,10 @@ export { default as CreditBuilder } from "./CreditBuilder.webp";
 export { default as Alert } from "./alerts.webp";
 export { default as Lock } from "./lock.webp";
 export { default as ChimeReview } from "./Chime-Reviews-1mil.webp";
+
+export { default as AppStore } from "./app-store.webp";
+export { default as GooglePlay } from "./google-play.webp";
+
+export { default as FaceBook } from "./facebook-bw.webp";
+export { default as Twitter } from "./twitter-bw.webp";
+export { default as InstaGram } from "./instagram-bw.webp";
