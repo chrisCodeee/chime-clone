@@ -10,16 +10,16 @@ interface Props {
 	imageLarge: string;
 	imageSmall: string;
 	fontsize?: string;
-	transform?: string;
 }
-const carouselDetails = ({ heading, number, imageLarge, imageSmall, fontsize, transform }: Props) => {
+const carouselDetails = ({ heading, number, imageLarge, imageSmall, fontsize = "2.5rem" }: Props) => {
 	return (
 		<>
 			<Container>
 				<CarouselTextContainer>
 					<h1>
 						{heading}
-						<span style={{ fontSize: fontsize, transform: `translateY(${transform})` }}>{number}</span>
+						{/* <span style={{ fontSize: fontsize, transform: `translateY(${transform})` }}>{number}</span> */}
+						<sup style={{ fontSize: fontsize }}>{number}</sup>
 					</h1>
 					<div>
 						<div className="mt-4 form-container">
