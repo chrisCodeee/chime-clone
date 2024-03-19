@@ -253,3 +253,7 @@ input::placeholder {
 		width: 90px;
 	}
 }
+
+.footer_copywrite-container p {
+	margin-top: -0.3rem;
+}
